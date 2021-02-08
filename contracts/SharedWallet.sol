@@ -1,6 +1,6 @@
 pragma solidity 0.7.5;
 
-contract MultiSigWallet {
+contract SharedWallet {
      
       address private _owner;
       mapping(address => uint8) private _owners;
